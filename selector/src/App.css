@@ -1,0 +1,24 @@
+.tab{
+  display: flex;
+  width: 500px; margin: 100px auto 20px auto;
+  list-style-type: none; padding: 0;
+}
+.tab li{
+  background: #000; color:#fff;
+  padding: 10px 20px;
+  margin-right: 10px;
+}
+.tab li.active{color: #ff0;}
+
+.tabContents{
+  width: 500px; height: 400px;
+  margin: 0px auto;
+  position: relative;
+}
+.tabContents div{
+  position: absolute;
+  width: 100%; height: 400px;
+  background-color: #eee;
+  display: none;
+}
+.tabContents div.active{display: block;}

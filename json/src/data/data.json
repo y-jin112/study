@@ -1,0 +1,37 @@
+{   
+    "work":[
+        {
+            "id":0,
+            "subject":"이미지01",
+            "summary":"웹플랫폼...",
+            "thumb":"./img/img-01.jpg",
+            "detail":"상세내용...."
+        },
+
+        {
+            "id":1,
+            "subject":"이미지02",
+            "summary":"모바일플랫폼...",
+            "thumb":"./img/img-02.jpg",
+            "detail":"상세내용...."
+        },
+
+        {
+            "id":2,
+            "subject":"이미지03",
+            "summary":"모바일플랫폼...",
+            "thumb":"./img/img-03.jpg",
+            "detail":"상세내용...."
+        },
+
+        {
+            "id":3,
+            "subject":"이미지04",
+            "summary":"모바일플랫폼...",
+            "thumb":"./img/img-04.jpg",
+            "detail":"상세내용...."
+        }
+
+
+    ]
+}

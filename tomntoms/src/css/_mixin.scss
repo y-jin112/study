@@ -1,0 +1,20 @@
+// _mixin.scss
+$w60 : 60%;
+//변수. $->scss 기호.  w60은 명칭인데 마음대로 바꿀수있음
+$black : #e92020;
+
+@mixin box-style {
+    width: 60%;
+    padding: 2%;
+    margin: 100px auto;
+    border: 1px solid $black;
+}
+
+
+@mixin flex($a, $b, $c) {
+    display: flex;
+    justify-content: $a;
+    align-items: $b;
+    flex-wrap: $c;
+}
+

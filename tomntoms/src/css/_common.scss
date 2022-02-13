@@ -1,0 +1,47 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;800&family=Source+Sans+Pro:wght@600&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body{margin: 0;}
+h1,h2,h3,h4,h5,h6,figure,p{margin: 0;}
+a{text-decoration: none;}
+ul,li{list-style-type: none; padding:0; margin:0;}
+img{vertical-align: middle;}
+table{border-collapse: collapse;}
+
+$mobile : 320px;
+$tablet : 767px;
+$pc : 1280px;
+
+
+.btn{
+    display: inline-block;
+    padding:20px 150px;
+    font-weight:bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    color: #fff;
+    background: #5eaeba;
+}
+
+.thema{background: #212224;}
+.thema2{background: #212224;}
+
+
+
+//_common.sccss
+
+// css컴파일하는 목적이 html에서
+// css파일 호출할려고 하는것!
+
+// scss파일은 브라우저가 인식을 못함
+// css 파일만 인식가능
+
+// common.scss 파일은 html에서 호출하지 않음
+// css로 컴파일 할 필요가 없습니다.
+
+

@@ -1,0 +1,43 @@
+react 명령어 (터미널)
+ctrl + c -> 일괄작업 끝내기 (Y/N)
+
+
+cd r-layout // r-layout 으로 이동하기
+
+npx create-react-app r-layout // r-layout 폴더 생성하기 (환경구축하기)
+
+npm i react-router-dom
+
+npm run build // 웹서비스에 배포하기위한 파일인 build 폴더를 생성
+
+npm i node-sass // sass 설치 
+
+&lt;  &gt; <>
+
+
+----------------------------------------
+ctrl + c -> 기존작업 끝내고
+cd.. -> react 폴더로 가기
+npx create-react-app (폴더명) -> 폴더만들기
+cd (폴더명) -> 폴더명으로 가기
+npm start -> npm 돌리기 (홈페이지 뜸)
+
+//////////////////
+cd vue3-test
+code . -r < 현재 지정된 커맨드로 폴더 열기
+//////////////////
+npm i redux react-redux < 리덕스 설치
+
+
+react 에서 작업할때
+public > img 폴더 넣기
+src > css / js 폴더 넣기
+
+
+메인 사이트 가져올때
+img -> img 끝에 폴더에 / < 넣을것
+<br> br부분 더블클릭, ctrl + H -> <br />로 변경
+<class> -> <className>으로 변경
+
+
+
